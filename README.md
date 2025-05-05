@@ -10,8 +10,11 @@ Featrues:
 4. User can Review a guide
 5. User Profile and Edit profile
 
+## 📹 Demo Video
 [Watch the video](https://drive.google.com/file/d/1VBCebjyDELJ8dk2e-yOYCF3VOoZ0Uwca/view?usp=share_link)
-[exe file](https://drive.google.com/file/d/1BqVAD4QDIiCUfxF_IIhQ5PQ5WTkeCLuI/view?usp=share_link)
+
+## 💾 Download Executable
+[Download .exe file](https://drive.google.com/file/d/1BqVAD4QDIiCUfxF_IIhQ5PQ5WTkeCLuI/view?usp=share_link)
 
 
 
