@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1024.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tour.LoginController">
+    <opaqueInsets>
+        <Insets bottom="20.0" left="20.0" right="30.0" top="20.0" />
+    </opaqueInsets>
+    <center>
+        <AnchorPane prefHeight="564.0" prefWidth="1024.0" BorderPane.alignment="CENTER">
+            <children>
+                <Text fill="#e70c17" layoutX="499.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign up">
+                    <font>
+                        <Font name="Berlin Sans FB" size="36.0" />
+                    </font>
+                </Text>
+                <Label layoutX="292.0" layoutY="192.0" text="full name:">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="296.0" layoutY="273.0" text="user name:">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="usernameField" alignment="CENTER" layoutX="413.0" layoutY="265.0" prefHeight="46.0" prefWidth="282.0" promptText="Enter Password" style="-fx-background-radius: 50px; -fx-border-color: red; -fx-border-radius: 50px;">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="fullName" alignment="CENTER" layoutX="411.0" layoutY="184.0" prefHeight="47.0" prefWidth="286.0" promptText="Enter Email" style="-fx-background-radius: 50px; -fx-border-radius: 50px; -fx-border-color: red;">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </TextField>
+                <Button layoutX="28.0" layoutY="42.0" mnemonicParsing="false" onAction="#back" style="-fx-background-radius: 25px; -fx-background-color: red;" text="Back" textFill="#efe8e9">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                </Button>
+                <Button layoutX="497.0" layoutY="519.0" mnemonicParsing="false" onAction="#signup" prefHeight="37.0" prefWidth="114.0" style="-fx-background-color: red; -fx-background-radius: 25px;" text="sign up" textFill="#faf8f8">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Button>
+                <Label layoutX="296.0" layoutY="361.0" text="email:">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="email" alignment="CENTER" layoutX="413.0" layoutY="353.0" prefHeight="46.0" prefWidth="282.0" promptText="Enter Email" style="-fx-background-radius: 50px; -fx-border-radius: 50px; -fx-border-color: red;">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </TextField>
+                <Label layoutX="292.0" layoutY="446.0" text="password:">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <PasswordField fx:id="passwordField" alignment="CENTER" layoutX="411.0" layoutY="436.0" prefHeight="46.0" prefWidth="282.0" promptText="Enter password" style="-fx-border-radius: 50px; -fx-background-radius: 50; -fx-border-color: red;">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </PasswordField>
+                <FontAwesomeIconView glyphName="USER" layoutX="253.0" layoutY="212.0" size="15" />
+                <FontAwesomeIconView glyphName="USER" layoutX="253.0" layoutY="292.0" size="15" />
+                <FontAwesomeIconView glyphName="ENVELOPE" layoutX="253.0" layoutY="380.0" size="12" />
+                <FontAwesomeIconView glyphName="LOCK" layoutX="253.0" layoutY="463.0" size="15" />
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>
